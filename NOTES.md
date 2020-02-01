@@ -11,3 +11,14 @@
 print(Gio.Action.print_detailed_name(self.impl.window.lookup_action("rotate").get_name(), GLib.Variant.new_int32(90)))
 Gtk.accelerator_name(Gdk.KEY_Delete, 0)=='Delete'
 ```
+
+## GMenu migration
+
+* <https://gitlab.gnome.org/GNOME/gtk/blob/master/demos/gtk-demo/shortcuts-builder.ui>
+* <https://lazka.github.io/pgi-docs/Gtk-3.0/classes/ShortcutsWindow.html>
+* <https://gitlab.gnome.org/GNOME/Initiatives/-/wikis/App-Menu-Retirement>
+* <https://developer.gnome.org/hig/stable>
+* <https://gitlab.gnome.org/GNOME/meld/-/blob/master/meld/meldwindow.py>
+* <https://gitlab.gnome.org/GNOME/meld/-/blob/master/meld/resources/ui/appwindow.ui>
+* <https://developer.gnome.org/gtk3/stable/GtkPopover.html>
+* <https://gitlab.gnome.org/GNOME/gtk/issues/903>
