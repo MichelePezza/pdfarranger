@@ -22,3 +22,12 @@ Gtk.accelerator_name(Gdk.KEY_Delete, 0)=='Delete'
 * <https://gitlab.gnome.org/GNOME/meld/-/blob/master/meld/resources/ui/appwindow.ui>
 * <https://developer.gnome.org/gtk3/stable/GtkPopover.html>
 * <https://gitlab.gnome.org/GNOME/gtk/issues/903>
+
+## 1.5.0 TODO
+
+* Update screenshot
+* Wait for german translation
+* Add release in appstream file
+* Try to do the windows release with Arch Linux, Wine and Docker
+* Check .msi size after release
+* Remove the Quit menu
